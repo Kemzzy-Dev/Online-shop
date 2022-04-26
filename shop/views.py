@@ -10,5 +10,10 @@ def checkout(request):
     
 def store(request):
     return render(request, 'store.html')
+    
+def product(request):
+    return render(request, 'product.html')
 
+def blank(request):
+    return render(request, 'blank.html')
     
